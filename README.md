@@ -150,7 +150,7 @@ steps:
         compressed: logs.zip
 ```
 
-When downloading, this option states the actual name of the artifact to be downloaded in the `download` option will be extracted off of it. The following example will download the `logs.tgz` artifact and extract all files in it matching `log/file.log`:
+When downloading, this option states the actual name of the artifact to be downloaded in the `download` option will be extracted off of it. The following example will download the `logs.tgz` artifact and extract all files in it matching `log/file.log`:-
 
 ```yml
 steps:
